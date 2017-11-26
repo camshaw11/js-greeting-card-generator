@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Sigmar+One|Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <form action="card.html" method="post" class="pure-form pure-form-stacked">
+            <fieldset>
+                <legend>Customise your card</legend>
+
+                <label for="image">Choose image</label>
+                <select name="image" id="image">
+                    <option value="christmas" id ="christmas">Christmas</option>
+                    <option value="valentines" id="valentines">Valentines</option>
+                    <option value="birthday">Birthday</option>
+                </select>
+
+                <label for="background">Choose background colour</label>
+                <select name="background" id="background">
+                    <option value="celadon">Celadon</option>
+                    <option value="graphite">Graphite</option>
+                    <option value="rose">Barbie</option>
+                </select>
+
+                <label for="font">Choose font</label>
+                <select name="font" id="font">
+                    <option value="handwriting">Handwriting</option>
+                    <option value="sketch">Sketch</option>
+                    <option value="print">Print</option>
+                </select>
+
+                <label for="font">Choose border</label>
+                <select name="border" id="border">
+                    <option value="none">None</option>
+                    <option value="thin">Thin</option>
+                    <option value="thick">Thick</option>
+                    <option value="filled">Filled</option>
+                </select>
+
+
+                <label for="message">Specify your message</label>
+                <textarea name="message" id="message" cols="30" rows="8"></textarea>
+
+                <input type="submit" name="submit" class="pure-button pure-button-primary" value="Make card">
+            </fieldset>
+        </form>
+
+    </div>
+
+    <div class="card celadonBackground">
+        <div id="coverImage">
+            <img src="assets/birthday.jpg"/>
+        </div>
+        <div class="noBorder">
+            <h1 class="sketch">Happy birthday to you</h1>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src ="custom.js"></script>
+</body>
+</html>

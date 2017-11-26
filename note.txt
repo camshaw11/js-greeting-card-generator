@@ -1,0 +1,25 @@
+Pseudocode steps Cameron Shaw
+
+1) access data from the form
+ - grab form element
+ - access form element value
+ - send values to variable/ console.log
+
+2) add an event listener and big function around all the code so it is wrapped and only executes once the submit button has been hit
+
+3) prevent the default action of submitting data for the button so that the functions will run first
+
+4) create a set of variables for each from option to grab the required id (using a dom query)
+
+5) start creating smaller functions for each form option
+ - create an if statement inside each function to change the class names in the html when a certain option is selected in the option set
+
+5.5) use Jquery method or Vanilla js to manipulate the class names without touching the html
+
+6) invoke functions
+
+7) console log and dir the variables and values to make sure they are being registered. 
+
+8) comment/ grid code
+
+9) win
